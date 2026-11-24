@@ -1,0 +1,259 @@
+{
+  "id": "sales_remote",
+  "name": "sales_remote",
+  "metaData": {
+    "name": "sales_remote",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "1.0.0",
+      "buildName": "sales-remote"
+    },
+    "remoteEntry": {
+      "name": "remoteEntry.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "sales_remote",
+    "pluginVersion": "2.9.3",
+    "publicPath": "/csx-front-portal-demo-pages/remotes/sales/"
+  },
+  "shared": [
+    {
+      "id": "sales_remote:react",
+      "name": "react",
+      "version": "*",
+      "singleton": true,
+      "requiredVersion": "^*",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "sales_remote:antd",
+      "name": "antd",
+      "version": "*",
+      "singleton": true,
+      "requiredVersion": "^*",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "sales_remote:@ant-design/icons",
+      "name": "@ant-design/icons",
+      "version": "*",
+      "singleton": true,
+      "requiredVersion": "^*",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "sales_remote:dayjs",
+      "name": "dayjs",
+      "version": "*",
+      "singleton": true,
+      "requiredVersion": "^*",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "sales_remote:@platform/sdk",
+      "name": "@platform/sdk",
+      "version": "*",
+      "singleton": true,
+      "requiredVersion": "^*",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "sales_remote:@csx/design",
+      "name": "@csx/design",
+      "version": "*",
+      "singleton": true,
+      "requiredVersion": "^*",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "sales_remote:react-dom",
+      "name": "react-dom",
+      "version": "*",
+      "singleton": true,
+      "requiredVersion": "^*",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "id": "sales_remote:SharedOrderOcrCreatePage",
+      "name": "SharedOrderOcrCreatePage",
+      "assets": {
+        "js": {
+          "sync": [
+            "static/js/async/__federation_expose_SharedOrderOcrCreatePage.12820e0343.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./SharedOrderOcrCreatePage"
+    },
+    {
+      "id": "sales_remote:DemandOrderListPage",
+      "name": "DemandOrderListPage",
+      "assets": {
+        "js": {
+          "sync": [
+            "static/js/async/__federation_expose_DemandOrderListPage.25ad610205.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./DemandOrderListPage"
+    },
+    {
+      "id": "sales_remote:CustomerArchivePage",
+      "name": "CustomerArchivePage",
+      "assets": {
+        "js": {
+          "sync": [
+            "static/js/async/__federation_expose_CustomerArchivePage.3f4c26ee25.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./CustomerArchivePage"
+    },
+    {
+      "id": "sales_remote:QuoteGuidePage",
+      "name": "QuoteGuidePage",
+      "assets": {
+        "js": {
+          "sync": [
+            "static/js/async/__federation_expose_QuoteGuidePage.11a335c298.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./QuoteGuidePage"
+    },
+    {
+      "id": "sales_remote:OrderCreatePage",
+      "name": "OrderCreatePage",
+      "assets": {
+        "js": {
+          "sync": [
+            "static/js/async/__federation_expose_OrderCreatePage.e1fd297742.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./OrderCreatePage"
+    },
+    {
+      "id": "sales_remote:OrderDetailPage",
+      "name": "OrderDetailPage",
+      "assets": {
+        "js": {
+          "sync": [
+            "static/js/async/__federation_expose_OrderDetailPage.ce1116643c.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./OrderDetailPage"
+    }
+  ]
+}

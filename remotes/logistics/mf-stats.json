@@ -1,0 +1,234 @@
+{
+  "id": "logistics_remote",
+  "name": "logistics_remote",
+  "metaData": {
+    "name": "logistics_remote",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "1.0.0",
+      "buildName": "logistics-remote"
+    },
+    "remoteEntry": {
+      "name": "remoteEntry.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "logistics_remote",
+    "pluginVersion": "2.9.3",
+    "publicPath": "/csx-front-portal-demo-pages/remotes/logistics/"
+  },
+  "shared": [
+    {
+      "singleton": true,
+      "requiredVersion": "^*",
+      "shareScope": "default",
+      "import": false,
+      "name": "react",
+      "version": "*",
+      "eager": false,
+      "id": "logistics_remote:react",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./WaybillTrackPage",
+        "./ReplenishPlanPage"
+      ],
+      "usedExports": [],
+      "fallback": ""
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^*",
+      "shareScope": "default",
+      "import": false,
+      "name": "antd",
+      "version": "*",
+      "eager": false,
+      "id": "logistics_remote:antd",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./WaybillTrackPage",
+        "./ReplenishPlanPage"
+      ],
+      "usedExports": [],
+      "fallback": ""
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^*",
+      "shareScope": "default",
+      "import": false,
+      "name": "@ant-design/icons",
+      "version": "*",
+      "eager": false,
+      "id": "logistics_remote:@ant-design/icons",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./WaybillTrackPage",
+        "./ReplenishPlanPage"
+      ],
+      "usedExports": [],
+      "fallback": ""
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^*",
+      "shareScope": "default",
+      "import": false,
+      "name": "@platform/sdk",
+      "version": "*",
+      "eager": false,
+      "id": "logistics_remote:@platform/sdk",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./WaybillTrackPage",
+        "./ReplenishPlanPage"
+      ],
+      "usedExports": [],
+      "fallback": ""
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^*",
+      "shareScope": "default",
+      "import": false,
+      "name": "@csx/design",
+      "version": "*",
+      "eager": false,
+      "id": "logistics_remote:@csx/design",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./WaybillTrackPage",
+        "./ReplenishPlanPage"
+      ],
+      "usedExports": [],
+      "fallback": ""
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^*",
+      "shareScope": "default",
+      "import": false,
+      "name": "react-dom",
+      "version": "*",
+      "eager": false,
+      "id": "logistics_remote:react-dom",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [],
+      "usedExports": [],
+      "fallback": ""
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "path": "./WaybillTrackPage",
+      "id": "logistics_remote:WaybillTrackPage",
+      "name": "WaybillTrackPage",
+      "requires": [
+        "react",
+        "antd",
+        "@ant-design/icons",
+        "@platform/sdk",
+        "@csx/design"
+      ],
+      "file": "src/pages/WaybillTrackPage.tsx",
+      "assets": {
+        "js": {
+          "sync": [
+            "static/js/async/__federation_expose_WaybillTrackPage.c4ea5aa2bc.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./ReplenishPlanPage",
+      "id": "logistics_remote:ReplenishPlanPage",
+      "name": "ReplenishPlanPage",
+      "requires": [
+        "react",
+        "antd",
+        "@ant-design/icons",
+        "@platform/sdk",
+        "@csx/design"
+      ],
+      "file": "src/pages/ReplenishPlanPage.tsx",
+      "assets": {
+        "js": {
+          "sync": [
+            "static/js/async/__federation_expose_ReplenishPlanPage.3be3320257.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    }
+  ]
+}

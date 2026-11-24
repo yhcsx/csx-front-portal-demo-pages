@@ -1,0 +1,202 @@
+{
+  "id": "portal_shell",
+  "name": "portal_shell",
+  "metaData": {
+    "name": "portal_shell",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "1.0.0",
+      "buildName": "portal-shell"
+    },
+    "remoteEntry": {
+      "name": "",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "portal_shell",
+    "pluginVersion": "2.9.3",
+    "publicPath": "/csx-front-portal-demo-pages/"
+  },
+  "shared": [
+    {
+      "singleton": true,
+      "requiredVersion": "^6.3.4",
+      "shareScope": "default",
+      "eager": true,
+      "name": "@ant-design/icons",
+      "version": "6.3.4",
+      "id": "portal_shell:@ant-design/icons",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/js/i1.9e7cb2f520.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [],
+      "usedExports": [],
+      "fallback": ""
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.0.0",
+      "shareScope": "default",
+      "eager": true,
+      "name": "@csx/design",
+      "version": "1.0.0",
+      "id": "portal_shell:@csx/design",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/js/index.d8ce0b510b.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": [
+            "static/css/index.c10422126e.css"
+          ]
+        }
+      },
+      "usedIn": [],
+      "usedExports": [],
+      "fallback": ""
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.0.0",
+      "shareScope": "default",
+      "eager": true,
+      "name": "@platform/sdk",
+      "version": "1.0.0",
+      "id": "portal_shell:@platform/sdk",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/js/index.d8ce0b510b.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": [
+            "static/css/index.c10422126e.css"
+          ]
+        }
+      },
+      "usedIn": [],
+      "usedExports": [],
+      "fallback": ""
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^6.7.1",
+      "shareScope": "default",
+      "eager": true,
+      "name": "antd",
+      "version": "6.7.1",
+      "id": "portal_shell:antd",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/js/i.89f10cf1f2.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [],
+      "usedExports": [],
+      "fallback": ""
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.11.23",
+      "shareScope": "default",
+      "eager": true,
+      "name": "dayjs",
+      "version": "1.11.23",
+      "id": "portal_shell:dayjs",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/js/lk.c67de8fbac.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [],
+      "usedExports": [],
+      "fallback": ""
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^19.3.1",
+      "shareScope": "default",
+      "eager": true,
+      "name": "react-dom",
+      "version": "19.3.1",
+      "id": "portal_shell:react-dom",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/js/y.954fe62238.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [],
+      "usedExports": [],
+      "fallback": ""
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^19.3.1",
+      "shareScope": "default",
+      "eager": true,
+      "name": "react",
+      "version": "19.3.1",
+      "id": "portal_shell:react",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/js/f.58ac7b5a75.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [],
+      "usedExports": [],
+      "fallback": ""
+    }
+  ],
+  "remotes": [],
+  "exposes": []
+}

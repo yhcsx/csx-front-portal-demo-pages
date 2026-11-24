@@ -1,0 +1,173 @@
+{
+  "id": "logistics_remote",
+  "name": "logistics_remote",
+  "metaData": {
+    "name": "logistics_remote",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "1.0.0",
+      "buildName": "logistics-remote"
+    },
+    "remoteEntry": {
+      "name": "remoteEntry.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "logistics_remote",
+    "pluginVersion": "2.9.3",
+    "publicPath": "/csx-front-portal-demo-pages/remotes/logistics/"
+  },
+  "shared": [
+    {
+      "id": "logistics_remote:react",
+      "name": "react",
+      "version": "*",
+      "singleton": true,
+      "requiredVersion": "^*",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "logistics_remote:antd",
+      "name": "antd",
+      "version": "*",
+      "singleton": true,
+      "requiredVersion": "^*",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "logistics_remote:@ant-design/icons",
+      "name": "@ant-design/icons",
+      "version": "*",
+      "singleton": true,
+      "requiredVersion": "^*",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "logistics_remote:@platform/sdk",
+      "name": "@platform/sdk",
+      "version": "*",
+      "singleton": true,
+      "requiredVersion": "^*",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "logistics_remote:@csx/design",
+      "name": "@csx/design",
+      "version": "*",
+      "singleton": true,
+      "requiredVersion": "^*",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "logistics_remote:react-dom",
+      "name": "react-dom",
+      "version": "*",
+      "singleton": true,
+      "requiredVersion": "^*",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "id": "logistics_remote:WaybillTrackPage",
+      "name": "WaybillTrackPage",
+      "assets": {
+        "js": {
+          "sync": [
+            "static/js/async/__federation_expose_WaybillTrackPage.c4ea5aa2bc.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./WaybillTrackPage"
+    },
+    {
+      "id": "logistics_remote:ReplenishPlanPage",
+      "name": "ReplenishPlanPage",
+      "assets": {
+        "js": {
+          "sync": [
+            "static/js/async/__federation_expose_ReplenishPlanPage.3be3320257.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./ReplenishPlanPage"
+    }
+  ]
+}

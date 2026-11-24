@@ -1,0 +1,232 @@
+{
+  "id": "finance_remote",
+  "name": "finance_remote",
+  "metaData": {
+    "name": "finance_remote",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "1.0.0",
+      "buildName": "finance-remote"
+    },
+    "remoteEntry": {
+      "name": "remoteEntry.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "finance_remote",
+    "pluginVersion": "2.9.3",
+    "publicPath": "/csx-front-portal-demo-pages/remotes/finance/"
+  },
+  "shared": [
+    {
+      "singleton": true,
+      "requiredVersion": "^*",
+      "shareScope": "default",
+      "import": false,
+      "name": "react",
+      "version": "*",
+      "eager": false,
+      "id": "finance_remote:react",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./MarginControlPage",
+        "./SettlementAuditPage"
+      ],
+      "usedExports": [],
+      "fallback": ""
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^*",
+      "shareScope": "default",
+      "import": false,
+      "name": "antd",
+      "version": "*",
+      "eager": false,
+      "id": "finance_remote:antd",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./MarginControlPage",
+        "./SettlementAuditPage"
+      ],
+      "usedExports": [],
+      "fallback": ""
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^*",
+      "shareScope": "default",
+      "import": false,
+      "name": "@ant-design/icons",
+      "version": "*",
+      "eager": false,
+      "id": "finance_remote:@ant-design/icons",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./SettlementAuditPage"
+      ],
+      "usedExports": [],
+      "fallback": ""
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^*",
+      "shareScope": "default",
+      "import": false,
+      "name": "@platform/sdk",
+      "version": "*",
+      "eager": false,
+      "id": "finance_remote:@platform/sdk",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./SettlementAuditPage",
+        "./MarginControlPage"
+      ],
+      "usedExports": [],
+      "fallback": ""
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^*",
+      "shareScope": "default",
+      "import": false,
+      "name": "@csx/design",
+      "version": "*",
+      "eager": false,
+      "id": "finance_remote:@csx/design",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./MarginControlPage",
+        "./SettlementAuditPage"
+      ],
+      "usedExports": [],
+      "fallback": ""
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^*",
+      "shareScope": "default",
+      "import": false,
+      "name": "react-dom",
+      "version": "*",
+      "eager": false,
+      "id": "finance_remote:react-dom",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [],
+      "usedExports": [],
+      "fallback": ""
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "path": "./SettlementAuditPage",
+      "id": "finance_remote:SettlementAuditPage",
+      "name": "SettlementAuditPage",
+      "requires": [
+        "react",
+        "antd",
+        "@ant-design/icons",
+        "@platform/sdk",
+        "@csx/design"
+      ],
+      "file": "src/pages/SettlementAuditPage.tsx",
+      "assets": {
+        "js": {
+          "sync": [
+            "static/js/async/__federation_expose_SettlementAuditPage.8893c24abc.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./MarginControlPage",
+      "id": "finance_remote:MarginControlPage",
+      "name": "MarginControlPage",
+      "requires": [
+        "react",
+        "antd",
+        "@platform/sdk",
+        "@csx/design"
+      ],
+      "file": "src/pages/MarginControlPage.tsx",
+      "assets": {
+        "js": {
+          "sync": [
+            "static/js/async/__federation_expose_MarginControlPage.d914716b13.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    }
+  ]
+}

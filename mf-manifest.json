@@ -1,0 +1,174 @@
+{
+  "id": "portal_shell",
+  "name": "portal_shell",
+  "metaData": {
+    "name": "portal_shell",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "1.0.0",
+      "buildName": "portal-shell"
+    },
+    "remoteEntry": {
+      "name": "",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "portal_shell",
+    "pluginVersion": "2.9.3",
+    "publicPath": "/csx-front-portal-demo-pages/"
+  },
+  "shared": [
+    {
+      "id": "portal_shell:@ant-design/icons",
+      "name": "@ant-design/icons",
+      "version": "6.3.4",
+      "singleton": true,
+      "requiredVersion": "^6.3.4",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/js/i1.9e7cb2f520.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "portal_shell:@csx/design",
+      "name": "@csx/design",
+      "version": "1.0.0",
+      "singleton": true,
+      "requiredVersion": "^1.0.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/js/index.d8ce0b510b.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": [
+            "static/css/index.c10422126e.css"
+          ]
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "portal_shell:@platform/sdk",
+      "name": "@platform/sdk",
+      "version": "1.0.0",
+      "singleton": true,
+      "requiredVersion": "^1.0.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/js/index.d8ce0b510b.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": [
+            "static/css/index.c10422126e.css"
+          ]
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "portal_shell:antd",
+      "name": "antd",
+      "version": "6.7.1",
+      "singleton": true,
+      "requiredVersion": "^6.7.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/js/i.89f10cf1f2.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "portal_shell:dayjs",
+      "name": "dayjs",
+      "version": "1.11.23",
+      "singleton": true,
+      "requiredVersion": "^1.11.23",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/js/lk.c67de8fbac.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "portal_shell:react-dom",
+      "name": "react-dom",
+      "version": "19.3.1",
+      "singleton": true,
+      "requiredVersion": "^19.3.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/js/y.954fe62238.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "portal_shell:react",
+      "name": "react",
+      "version": "19.3.1",
+      "singleton": true,
+      "requiredVersion": "^19.3.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/js/f.58ac7b5a75.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    }
+  ],
+  "remotes": [],
+  "exposes": []
+}
